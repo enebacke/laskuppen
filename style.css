@@ -1,0 +1,141 @@
+/*   
+Theme Name: The Book
+Theme URI: http://www.studiostacks.com/design-options/the-book-design/
+Description: All 12 variations of the Book Design
+Author: Studio Stacks
+Author URI: http://www.studiostacks.com
+Version: 1.0
+.
+All copyrights of this template belong to Studio Stacks. Contact us through tellmemore@studiostacks.com
+.
+*/
+
+.noshow {display:none;}
+
+/* =Undo browser defaults
+------------------------------------------------------------ */
+:link,:visited { text-decoration: none; }
+a:hover {text-decoration:underline;}
+.menu ul, .footermenu ul, #navigation ul { list-style: none; margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, pre, code, p { font-size: 1em; }
+h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0; padding: 0; }
+a img, :link img, :visited img { border: none; }
+
+/* =Template Structure
+-------------------------------------------------------------- */
+
+body {margin:0;padding:0;}
+#wrapper {width:895px; margin:0 auto; padding:0 2px 0 3px;}
+.empty {clear:both; height:30px;}
+
+/*TEXT Styles*/
+body {font-family: 'Arial', Georgia, Arial, Times; font-size:14px; line-height:1.5;}
+.copyright, .entry-meta, .comment-meta, .comment-content {font-size:12px;}
+#tabs a {text-decoration:none; font-family: 'Arial'; font-size:22px; line-height:0.8;}
+.site-title, .site-title h1 {font-size:28px; }
+.site-title, #navigation h3, #content h1, #content h2 {font-weight:normal; text-align:center; margin:1em;} /* HEADING UNDERLINE COLOR */
+#content p {margin:1em 0;}
+#navigation {font-style:italic;}
+#content h1, h2.entry-title {font-size:24px;}
+#content h1.meta-page-title {border:none; font-weight:normal; text-align:left; margin-left:0;}
+.comment-author, .comment-reply-link a {font-size:16px;}
+.comments h3, #respond h3 {font-size:20px; font-weight:normal;}
+h1#blog-description, #blog-description, .copyright {font-weight:normal; font-variant:small-caps; text-transform:lowercase; letter-spacing:2px;}
+h1#blog-description, #blog-description {letter-spacing:4px;}
+.entry-content a {text-decoration:underline;}
+.entry-content a:hover {text-decoration:none;}
+#content.search h2.entry-title {text-align:left; margin:1em 0 0; padding-bottom:0;}
+#content.search .entry-summary p {margin:0;}
+#content.search .entry-meta {margin:0;}
+
+/* =Positioning & Dimensions
+-------------------------------------------------------------- */
+#header {position:relative;}
+#masthead {text-align:center; padding:40px 0 10px;}
+#access {display:none;}
+
+.site-title {width:650px; margin:0 auto;}
+.site-title img {margin:0 15px;}
+#container {clear:both;}
+	#book-top {height:12px; clear:both; margin-top:0;}
+	#tabs {width:199px; float:left; display:inline;}
+	#content {width:414px; float:left; margin:10px 24px 30px 9px;}
+	#navigation {width:203px; float:left; margin:30px 14px 30px 32px;}
+	#book-bottom {height:41px; clear:both; margin-top:0;}
+.post-divider {margin:15px; height:15px;}
+#footer {padding-top:30px; margin-top:25px; clear:both;}
+	.copyright {text-align:center; margin-top:10px;}
+#studiostacks-design {clear:both; /*width:750px; height:26px; margin:0 auto;*/} 
+
+/* =Menu
+-------------------------------------------------------------- */
+#tabs a.home {width:100px; height:57px; margin:10px 0 10px 99px; display:block; text-indent:-9999px;}
+
+.menu ul {list-style: none;}
+.menu ul ul {display: none; }
+.menu li {width:199px; height:57px;}
+.menu a {display: block; float: left; text-align:center;}
+.menu ul li a {width:150px; height:35px; margin:0; padding:22px 30px 0 19px;}
+
+#navigation {text-align:center;}
+#navigation li {margin:10px 0;}
+
+.footermenu ul {list-style: none; margin:0; text-align:center;}
+.footermenu ul ul {display: none; }
+.footermenu li {display:inline;}
+.footermenu a {margin:0 10px;}
+
+/* =Blog
+-------------------------------------------------------------- */
+.entry-meta {margin:0 -5px -20px -5px;}
+.comments h3.comments-list-title {display:inline; float:left; margin:5px 0;}
+.comments-rss a {display:block; width:14px; height:14px; margin:13px 0 0 10px; text-indent:-9999px; float:left;}
+.comment-meta-author {clear:both;}
+.comment-author, .comment-meta {line-height:1; margin-top:1px;}
+.comment-meta {float:right;}
+.comment-content {padding-left:5px;}
+.comment-reply-link {margin-bottom:25px;}
+#comments-list ol li {margin-left:0;}
+#comments-list ol li li {margin-left:20px;}
+#cancel-comment-reply a, .unapproved {color:#F00;}
+.btop {height:70px; margin:0; padding:25px 10px 0 30px;}
+.bmid {margin:0; padding:0 10px;}
+.bmid p {margin-top:0; padding-top:0;}
+.bbot {height:58px; margin:0; padding:25px 0 0 0;}
+.entry-meta.single {margin:25px; text-align:left;}
+#comment-button {text-align:right;}
+#comment-button a {border:none;}
+#nav-below {clear:both; margin-top:15px;}
+.nav-previous, .nav-next {width:205px;}
+.nav-previous {float:left; display:inline; text-align:left;}
+.nav-next {float:right; text-align:right;}
+
+/* -- The images --*/
+.wp-caption, img.aligncenter, img.alignleft, img.alignright, iframe, img.alignnone { margin:2px 8px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+.wp-caption img {margin:5px;}
+img.aligncenter, img.alignleft, img.alignright, iframe, img.alignnone {padding:5px;}
+p.wp-caption-text {margin:0; padding:0 3px 3px; text-align:center; font-size:12px;}
+.post img.alignnone {background:none; border:none;}
+.wp-caption.aligncenter {margin:0 auto;}
+.alignright, img.alignright {float:right; margin-right:-5px;}
+.alignleft, img.alignleft {float:left; margin-left:-5px;}
+
+#studiostacks-design {clear:both; float:right; margin-top:-40px;}
+#studiostacks-design a {display:block;width:101px;height:26px; text-indent:-9999px;}
+
+/* Social Media
+----------------------------------------------------------------------------------------------------*/
+.social {width:120px; height:28px; float:right; position:absolute; left:775px; top:0;}
+.social a {display:block; height:24px; width:24px; float:right; margin:4px 8px; text-indent:-9999px;}
+.social a.Twitter {background:url(images/icons/twitter.png) no-repeat;}
+.social a.Vimeo {background:url(images/icons/vimeo.png) no-repeat;}
+.social a.MySpace {background:url(images/icons/myspace.png) no-repeat;}
+.social a.Delicious {background:url(images/icons/delicious.png) no-repeat;}
+.social a.Flickr {background:url(images/icons/flickr.png) no-repeat;}
+.social a.Facebook {background:url(images/icons/facebook.png) no-repeat;}
+.social a.LinkedIn {background:url(images/icons/linkedin.png) no-repeat;}
+.social a.YouTube {background:url(images/icons/youtube.png) no-repeat;}
+.addthis_toolbox {width:120px; margin:20px auto 30px;}
+*{
+	font-family: "Arial";
+}

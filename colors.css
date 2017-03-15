@@ -1,0 +1,64 @@
+/*
+Theme: The Book
+Color: Poisonous Green 
+Author: Jerry Rietveld - www.studiostacks.com
+*/
+
+/* =Colors & Styles
+-------------------------------------------------------------- */
+body {background:#222;}
+#header {text-shadow:0 0 1px #222;}
+
+/*TEXT Colors*/
+.site-title a, #blog-description {color:#FFF;}
+
+.menu a  {color:#FFF;}
+.menu a:hover {color:#666;}
+.menu li.current_page_item a {color:#000;}
+
+#content h1, #content h1 a {color:#333;}
+#content h2, #content h2 a {color:#333;}
+#content {color:#000;}
+#content a {color:#666;}
+
+#navigation h3 {color:#333;}
+#navigation a {color:#000;}
+
+.comment-author a, .comment-author, .comment-meta a {color:#000;}
+.comment-meta, .comment-reply-link a, #respond a {color:#666;}
+.comment-content {color:#444;}
+
+.footermenu a {color:#FFF;}
+.copyright, .copyright a {color:#999;}
+
+#navigation h3, #content h1, #content h2 {border-bottom:1px solid #000;} /* HEADING UNDERLINE COLOR */
+.site-title {border-bottom:1px solid #ff0000;}
+
+/* =Backgrounds
+-------------------------------------------------------------- */
+#container {background:url(bilder/book-middle.png) right repeat-y;}
+#book-top {background:url(bilder/book-top.png) no-repeat right;}
+#book-bottom {background:url(bilder/book-bottom.png) no-repeat right;}
+.menu li {background:url(bilder/menu-tab.png) no-repeat;}
+.menu li:hover {background:url(pg/menu-tab-hover.png) no-repeat;}
+.menu li.current_page_item {background:url(pg/menu-tab-active.png) no-repeat;}
+#tabs a.home {background:url(pg/tab-home.png) no-repeat;}
+#tabs a.home:hover {background:url(pg/tab-home-hover.png) no-repeat;}
+#tabs a.home.current_page {background:url(pg/tab-home-active.png) no-repeat;}
+#footer {background:url(pg/footer-line.png) no-repeat top;}
+.post-divider {background:url(pg/post-divider.png) center no-repeat;}
+
+/* =Blog
+-------------------------------------------------------------- */
+.comments-rss a {background:url(pg/feed-icon-14x14.png) no-repeat;}
+
+/* -- The images --*/
+.wp-caption, img.aligncenter, img.alignleft, img.alignright, iframe, img.alignnone {border:1px solid #DDD; background: rgb(221, 221, 221); background: rgba(221, 221, 221, 0.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#128DDDDDD, endColorstr=#128DDDDDD); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#128DDDDDD, endColorstr=#128DDDDDD)";}
+p.wp-caption-text {text-shadow:0 0 1px #EEE;}
+
+#studiostacks-design a {background:url(pg/design-by-studiostacks.png) 0 0 no-repeat;}
+#studiostacks-design a:hover {background:url(pg/design-by-studiostacks.png) 0 -26px no-repeat;}
+
+*{
+font-family: "Arial";
+}
